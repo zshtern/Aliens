@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+
+    <dimen name="activity_main_label_margin">8dp</dimen>
+    <dimen name="activity_main_label_padding">8dp</dimen>
+    <dimen name="activity_main_zoom_margin">8dp</dimen>
+    <dimen name="TextHeight">200dp</dimen>
+
+
+</resources>

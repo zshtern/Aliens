@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="activity_main_label_background">#C000</color>
+
+    <color name="activity_main_label_gps">#bc65f9</color>
+    <color name="activity_main_stroke_gps">#bc65f9</color>
+    <color name="activity_main_fill_gps">#bc65f9</color>
+
+    <color name="activity_main_label_dng">#FF33</color>
+    <color name="activity_main_stroke_dng">#8F33</color>
+    <color name="activity_main_fill_dng">#2F33</color>
+
+    <color name="activity_main_label_friend">#F0D0</color>
+    <color name="activity_main_stroke_friend">#80D0</color>
+    <color name="activity_main_fill_friend">#20D0</color>
+
+    <color name="activity_main_label_foe">#fff900</color>
+    <color name="activity_main_stroke_foe">#fff900</color>
+    <color name="activity_main_fill_foe">#fff900</color>
+
+    <color name="activity_main_label_kalman">#a1a1c3</color>
+    <color name="activity_main_stroke_kalman">#a1a1c3</color>
+    <color name="activity_main_fill_kalman">#a1a1c3</color>
+
+    <color name="activity_main_label_kal">#F66F</color>
+
+    <color name="activity_main_label_alt">#F888</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_my_id"
+        android:orderInCategory="100"
+        android:title="@string/action_my_id"/>
+
+    <item
+        android:id="@+id/action_change_map"
+        android:orderInCategory="100"
+        android:title="@string/action_change_map"/>
+
+    <item
+        android:id="@+id/action_clear_map"
+        android:orderInCategory="100"
+        android:title="@string/action_clear_map"/>
+
+    <item
+        android:id="@+id/action_record"
+        android:orderInCategory="100"
+        android:title="@string/action_record"/>
+
+    <item
+        android:id="@+id/action_reset_offsets"
+        android:orderInCategory="100"
+        android:title="@string/action_reset_offsets"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/action_test_warning"
+        android:orderInCategory="100"
+        android:title="@string/action_test_warning" />
+
+</menu>

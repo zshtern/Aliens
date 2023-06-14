@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup" >
+
+        <RadioButton
+            android:id="@+id/FP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrong warning (FP)"
+            android:onClick="onRadioButtonClicked"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/TP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correct warning (TP)"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/FN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Missed warning (FN)"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/TN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correct no warning (TN)"
+            android:onClick="onRadioButtonClicked"  />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/OK_button"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="sendRecord"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/Cancel_button"
+        android:layout_below="@+id/radioGroup"
+        android:layout_toRightOf="@+id/OK_button"
+        android:layout_toEndOf="@+id/OK_button"
+        android:onClick="noAction"/>
+
+
+</RelativeLayout>

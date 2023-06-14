@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.sageloc.app"
+        minSdkVersion 10
+        resValue "string", "app_name", "SAGELOC"
+
+        //targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+        sensors {
+            initWith debug
+            applicationIdSuffix ".sensors"
+            resValue "string", "app_name", "Sageloc-Sensors"
+        }
+    }
+
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4'
+    implementation 'com.google.android.gms:play-services:8.1.0'
+    implementation 'com.google.android.gms:play-services-analytics'
+    implementation project(':geodesy')
+
+}
